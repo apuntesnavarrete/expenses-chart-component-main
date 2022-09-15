@@ -86,6 +86,12 @@ body{
     display: flex;
 }
 
+.main_title{
+    margin: 20px;
+    font-size: 1em;
+letter-spacing: 0.5px;
+}
+
 @media (min-width: 500px) {
     body{
         font-size: 22px;
