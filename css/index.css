@@ -56,6 +56,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 0.62em;
+    color: var(--Very-pale-orange);
 }
 
 .main-bottom{
@@ -64,6 +65,25 @@ body{
     border: 1px solid black;
     background-color: var(--Very-pale-orange);
     border-radius: 10px;
+}
+
+
+
+.main_my-balance{
+    font-size: 0.5em;
+    margin: 0.31em 0;
+
+}
+.main_total{
+    font-size: 1em;
+    font-weight: 700;
+}
+.logo{
+    width: 1.8em;
+    height: 1.8em;
+}
+.main-balance_rigth{
+    display: flex;
 }
 
 @media (min-width: 500px) {
