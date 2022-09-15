@@ -12,28 +12,69 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
 </head>
 <body>
-
-  My balance
-  $921.48
-
-  Spending - Last 7 days
-
-  mon
-  tue
-  wed
-  thu
-  fri
-  sat
-  sun
-
-  Total this month
-  $478.33
-
-  +2.4%
-  from last month
   
+<main>
+  <div class="main-top">
+    <div class="main-top_left">
+      <p>  My balance
+      </p>
+      <p>  $921.48
+      </p>
+    </div>
+    <div class="main-top_rigth">
+      <img>
+    </div>
+  </div>
+
+  <div class="main-bottom">
+    <h1>
+      Spending - Last 7 days
+    </h1>
+    <div class="main-content_chart">
+      <div class="chart"></div>
+      <p class="description-chart">mon</p>
+      <div class="chart"></div>
+      <p class="description-chart">tue</p>
+
+      <div class="chart"></div>
+      <p class="description-chart">wed</p>
+
+      <div class="chart"></div>
+      <p class="description-chart">thu</p>
+
+      <div class="chart"></div>
+      <p class="description-chart">fri</p>
+      <div class="chart"></div>
+      <p class="description-chart">sat</p>
+      <div class="chart"></div>
+      <p class="description-chart">sun</p>
+    </div>
+
+    <div class="main-chart_bottom">
+      <div class="chart-bottom-rigth">
+        <p>  Total this month
+        </p>
+        <p>  $478.33
+        </p>
+
+      </div>
+      <div class="chart-bottom-left">
+        <p>  +2.4%
+        </p>
+        <p>  from last month
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</main>
+
  <script src="./js/index.js"></script>
 </body>
 </html>
