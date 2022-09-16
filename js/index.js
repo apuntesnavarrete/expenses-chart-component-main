@@ -1,1 +1,2 @@
-console.log("debe aparecer aqui la data")
+fetch('data.json')
+.then(res => console.log(res))
