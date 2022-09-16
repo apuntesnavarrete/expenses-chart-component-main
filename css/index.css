@@ -63,6 +63,9 @@ body{
     background-color: var(--Very-pale-orange);
     border-radius: 10px;
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 
@@ -89,6 +92,10 @@ body{
 letter-spacing: 0.5px;
 height: 10%;
 
+}
+.main-content_chart{
+    display: flex;
+    align-items: flex-end;
 }
 
 .chart{
@@ -118,6 +125,7 @@ height: 10%;
 .description-chart{
     font-size: 0.5em;
 }
+
 
 .main-chart_bottom{
     display: flex;
