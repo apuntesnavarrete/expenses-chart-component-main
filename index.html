@@ -1,107 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Expenses chart component</title>
-  <link rel="stylesheet" href="./css/normalize.css">
-  <link rel="stylesheet" href="./css/index.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-</head>
-<body>
-  
-<main class="main">
-  <div class="main-balance">
-    <div class="main-balance_left">
-      <p class="main_my-balance">  My balance
-      </p>
-      <p class="main_total">  $921.48
-      </p>
-    </div>
-    <div class="main-balance_rigth">
-      <img class="logo" src="./images/logo.svg">
-    </div>
-  </div>
-
-  <div class="main-bottom">
-    <h1 class="main_title">
-      Spending - Last 7 days
-    </h1>
-    <div class="main-content_chart">
-      <div class="chart">
-        <div class="chart-container">
-          <p class="description-chart"></p>
-          <div class="draw-chart"></div>
-          <div class="sold_day"> <p> $51.00 </p> </div>
+    <title>Frontend Mentor | Expenses chart component</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+  </head>
+  <body>
+    <main class="main">
+      <div class="main-balance">
+        <div class="main-balance_left">
+          <p class="main_my-balance">My balance</p>
+          <p class="main_total">$921.48</p>
         </div>
-        <div class="chart-container">
-          <p class="description-chart"></p>
-          <div class="draw-chart"></div>
-          <div class="sold_day"> <p> $51.00 </p> </div>
-
+        <div class="main-balance_rigth">
+          <img class="logo" src="./images/logo.svg" alt="logo"/>
         </div>
-        <div class="chart-container">
-          <p class="description-chart"></p>
-          <div class="draw-chart"></div>
-          <div class="sold_day"> <p> $51.00 </p> </div>
-
-        </div>
-        <div class="chart-container">
-          <p class="description-chart"></p>
-          <div class="draw-chart"></div>
-          <div class="sold_day"> <p> $51.00 </p> </div>
-
-        </div>
-        <div class="chart-container">
-          <p class="description-chart"></p>
-          <div class="draw-chart"></div>
-          <div class="sold_day"> <p> $51.00 </p> </div>
-
-        </div>
-        <div class="chart-container">
-          <p class="description-chart"></p>
-          <div class="draw-chart"></div>
-          <div class="sold_day"> <p> $51.00 </p> </div>
-
-        </div>
-        <div class="chart-container">
-          <p class="description-chart"></p>
-          <div class="draw-chart"></div>
-          <div class="sold_day"> <p> $51.00 </p> </div>
-
-        </div>
-     
-      </div>
-    </div>
-
-    <div class="main-chart_bottom">
-      <div class="chart-bottom-rigth">
-        <p class="chart-bottom-description">  Total this month
-        </p>
-        <p class="chart-total">  $478.33
-        </p>
-
-      </div>
-      <div class="chart-bottom-left">
-        <p class="chart-porcent">  +2.4%
-        </p>
-        <p class="chart-bottom-description">  from last month
-        </p>
       </div>
 
-    </div>
+      <div class="main-bottom">
+        <h1 class="main_title">Spending - Last 7 days</h1>
+        <div class="main-content_chart">
+          <div class="chart">
+            <div class="chart-container">
+              <p class="description-chart"></p>
+              <div class="draw-chart"></div>
+              <div class="sold_day"><p>$51.00</p></div>
+            </div>
+            <div class="chart-container">
+              <p class="description-chart"></p>
+              <div class="draw-chart"></div>
+              <div class="sold_day"><p>$51.00</p></div>
+            </div>
+            <div class="chart-container">
+              <p class="description-chart"></p>
+              <div class="draw-chart"></div>
+              <div class="sold_day"><p>$51.00</p></div>
+            </div>
+            <div class="chart-container">
+              <p class="description-chart"></p>
+              <div class="draw-chart"></div>
+              <div class="sold_day"><p>$51.00</p></div>
+            </div>
+            <div class="chart-container">
+              <p class="description-chart"></p>
+              <div class="draw-chart"></div>
+              <div class="sold_day"><p>$51.00</p></div>
+            </div>
+            <div class="chart-container">
+              <p class="description-chart"></p>
+              <div class="draw-chart"></div>
+              <div class="sold_day"><p>$51.00</p></div>
+            </div>
+            <div class="chart-container">
+              <p class="description-chart"></p>
+              <div class="draw-chart"></div>
+              <div class="sold_day"><p>$51.00</p></div>
+            </div>
+          </div>
+        </div>
 
-  </div>
+        <div class="main-chart_bottom">
+          <div class="chart-bottom-rigth">
+            <p class="chart-bottom-description">Total this month</p>
+            <p class="chart-total">$478.33</p>
+          </div>
+          <div class="chart-bottom-left">
+            <p class="chart-porcent">+2.4%</p>
+            <p class="chart-bottom-description">from last month</p>
+          </div>
+        </div>
+      </div>
+    </main>
 
-</main>
-
- <script src="./js/index.js"></script>
-</body>
+    <script src="./js/index.js"></script>
+  </body>
 </html>
