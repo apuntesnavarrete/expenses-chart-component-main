@@ -33,6 +33,7 @@ body{
 
 .main{
     margin: 3.1em 0;
+    min-width: 19.3em;
 
     width: 15.75em;
     width: 90%;
@@ -62,7 +63,7 @@ body{
     height: 15em;
     background-color: var(--Very-pale-orange);
     border-radius: 10px;
-    padding: 15px;
+    padding: 0.93em;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -121,7 +122,13 @@ height: 10%;
     height: 5em;
     background-color: var(--Soft-red);
     border-radius: 3px;
+    cursor: pointer;
 }
+
+.draw-chart:hover{
+    filter: brightness(1.2);
+}
+
 .description-chart{
     font-size: 0.5em;
 }
@@ -155,6 +162,25 @@ height: 10%;
     align-items: flex-end;
 
 }
+
+.sold_day{
+    visibility: hidden;
+    margin-bottom: 0.25em;
+    width: 3.9em;
+    height: 1.8em;
+    background-color: var(--Dark-brown);
+    color: var(--Very-pale-orange);
+    font-size: 0.56em;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+
+
+
 @media (min-width: 500px) {
     body{
         font-size: 22px;
